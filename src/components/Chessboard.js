@@ -10,7 +10,7 @@ function Chessboard() {
 
     for (let i = 0; i < letters.length; i++) {
         for (let j = 0; j < numbers.length; j++) {
-            allCells.push(letters[i] + numbers[j]);
+            allCells.push(letters[i] + numbers[j])
         }
     }
 
